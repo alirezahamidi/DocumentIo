@@ -1,0 +1,19 @@
+{
+  "name": "documentio",
+  "version": "1.0.0",
+  "description": "A small helpful code to make HTML elements in Vanilla JS projects.",
+  "main": "documentIo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alirezahamidi@github.com/alirezahamidi/DocumentIo.git"
+  },
+  "author": "alirezahamidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alirezahamidi/DocumentIo/issues"
+  },
+  "homepage": "https://github.com/alirezahamidi/DocumentIo#readme"
+}

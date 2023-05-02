@@ -4,10 +4,10 @@ class DocumentIo {
     static createElement(elementType, attributes, childElements) {
         var el = document.createElement(elementType);
         Object.getOwnPropertyNames(attributes).forEach(a => {
-            if (a == "innerText") {
+            if (a.toLocaleLowerCase() == "innertext") {
                 el.innerText = attributes[a]
-            } else if (a == "innerHtml") {
-                el.innerHtml = attributes[a]
+            } else if (a.toLocaleLowerCase() == "innerhtml") {
+                el.innerHTML = attributes[a]
             } else if (a == "class") {
                 attributes[a].split(' ').forEach(c => {
                     if (c && c != '')
