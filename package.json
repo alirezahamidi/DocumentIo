@@ -4,7 +4,7 @@
   "description": "A small helpful code to make HTML elements in Vanilla JS projects.",
   "main": "documentIo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"minify ./documentIo.js > ./dist/documentIo.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alirezahamidi/DocumentIo/issues"
   },
-  "homepage": "https://github.com/alirezahamidi/DocumentIo#readme"
+  "homepage": "https://github.com/alirezahamidi/DocumentIo#readme",
+  "dependencies": {
+    "minify": "^9.2.0"
+  }
 }
